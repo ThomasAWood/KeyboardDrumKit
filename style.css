@@ -1,20 +1,48 @@
 /* http://i.imgur.com/b9r5sEL.jpg */
 
-[data-drum="bassDrum"] {
-    width: 200px;
+[data-drum='bassDrum'] {
+    position: absolute;
+    top: 300px;
+    left: 500px;
 }
 
-[data-drum="snareDrum"] {
-    width: 130px;
+[data-drum='snareDrum'] {
+    position: absolute;
+    top: 350px;
+    left: 670px;
 }
 
-[data-drum="hihat"] {
-    width: 125px;
+[data-drum='hihat'] {
+    position: absolute;
+    top: 16d0px;
+    left: 770px;
 }
 
-[data-drum] {
-    padding: 20px;
+[data-drum='crash1'] {
+    position: absolute;
+    top: 130px;
+    left: 830px;
 }
+
+[data-drum='crash2'] {
+    position: absolute;
+    top: 130px;
+    left: 400px;
+}
+
+[data-drum='highTom'] {
+    position: absolute;
+    top: 195px;
+    left: 645px;
+}
+
+
+[data-drum='floorTom'] {
+    position: absolute;
+    top: 350px;
+    left: 430px;
+}
+
 
 .drum {
     transition: all .07s ease;

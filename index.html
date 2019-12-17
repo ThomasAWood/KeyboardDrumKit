@@ -10,37 +10,23 @@
     <h1>Keyboard Drum Kit</h1>
   </div>
   <div class="drumKit">
-      <img src="images/bassDrum.png" data-drum="bassDrum" class="drum" data-key="65">
       <img src="images/snareDrum.png" data-drum="snareDrum" class="drum" data-key="68">
-      <img src="images/hihat.png" data-drum="hihat" class="drum" data-key="75">
+      <img src="images/hihat.png" data-drum="hihat" class="drum" data-key="74">
+      <img src="images/highTom.png" data-drum="highTom" class="drum" data-key="82">
+      <img src="images/floorTom.png" data-drum="floorTom" class="drum" data-key="87">
+      <img src="images/bassDrum.png" data-drum="bassDrum" class="drum" data-key="65">
+      <img src="images/crash2.png" data-drum="crash2" class="drum" data-key="85">
+      <img src="images/crash1.png" data-drum="crash1" class="drum" data-key="73">
   </div>
 
-  <audio data-key="75" src="sounds/hihat.wav"></audio>
+  <audio data-key="74" src="sounds/hihat.wav"></audio>
   <audio data-key="65" src="sounds/kick.wav"></audio>
   <audio data-key="68" src="sounds/snare.wav"></audio>
+  <audio data-key="73" src="sounds/crash1.wav"></audio>
+  <audio data-key="85" src="sounds/crash2.wav"></audio>
+  <audio data-key="87" src="sounds/floorTom.wav"></audio>
+  <audio data-key="82" src="sounds/highTom.wav"></audio>
 
-
-  <script>
-    function removeTransition(e) {
-      if (e.propertyName !== 'transform') return;
-      e.target.classList.remove('playing');
-    }
-
-    function playSound(e) {
-      const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
-      const drum = document.querySelector(`img[data-key="${e.keyCode}"]`)
-      if (!audio) return;
-      
-      drum.classList.add('playing');
-      audio.currentTime = 0;
-      audio.play();
-    }
-
-    const drums = Array.from(document.querySelectorAll('.drum'));
-    drums.forEach(drum => drum.addEventListener('transitionend', removeTransition));
-    window.addEventListener('keydown', playSound);
-  </script>
-
-
+  <script text="text/javascript" src="script.js"></script>
 </body>
 </html>
