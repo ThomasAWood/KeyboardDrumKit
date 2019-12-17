@@ -43,6 +43,11 @@
     left: 430px;
 }
 
+[data-drum='hihat'] {
+    position: absolute;
+    top: 170px;
+    left: 780px;
+}
 
 .drum {
     transition: all .07s ease;
