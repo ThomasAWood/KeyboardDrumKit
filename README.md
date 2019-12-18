@@ -1,4 +1,4 @@
-# KeyboardDrumKit
+# Simple Keyboard Drum Kit
 A Javascript drum kit that can be played by your computer keyboard
 
 # Keys and Corresponding Drums
