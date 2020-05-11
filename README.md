@@ -1,5 +1,5 @@
 # Simple Keyboard Drum Kit
-A Javascript drum kit that can be played by your computer keyboard
+A simple Javascript drum kit application that plays different drum samples and animates imageso of a drum kit from the keyboard
 
 # Keys and Corresponding Drums
 A = Bass Drum
