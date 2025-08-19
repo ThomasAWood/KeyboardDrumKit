@@ -1,5 +1,9 @@
-# Simple Keyboard Drum Kit
-A simple Javascript drum kit application that you can play with your keyboard. It plays a drum sample and animates the images of each part of the drum kit.
+
+# Keyboard Drum Kit
+A fun little Javascript drum kit that you can play with your keyboard.
+
+
+Have a go here -> [Link](https://thomasawood.github.io/KeyboardDrumKit/)
 
 # Keys and Corresponding Drums
 A = Bass Drum
